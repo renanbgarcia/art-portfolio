@@ -166,7 +166,8 @@ class Quiz extends Component {
                 <Button onClick={() => this.handleChoice(5)} variant="contained" color="primary">5</Button>
                 <Button onClick={() => this.handleChoice(9)} variant="contained" color="primary">9</Button>
                 <Dialog open={this.state.open}>
-                    {this.EASPfactorTitle[this.type].name}
+                    <h4>Você é {this.EASPfactorTitle[this.type].easp}.</h4>
+                    <h3>Tipo <strong>{this.EASPfactorTitle[this.type].nome.toLocaleUpperCase()}</strong></h3>
                 </Dialog>
             </div>
         );
