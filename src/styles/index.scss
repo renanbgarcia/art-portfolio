@@ -1,0 +1,40 @@
+@import 'variables';
+
+.App {
+    text-align: center;
+    background-color: $second-color;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    min-height: 100vh;
+    color: $third-color;
+    padding-top: $top-bar-height;
+  }
+  
+  .App-header {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    top: 0;
+    width: 100%;
+    height: $top-bar-height;
+    background-color: $third-color;
+    color: $fourth-color;
+  }
+  
+  .App-link {
+    color: #61dafb;
+    text-decoration: none;
+  }
+
+.slides {
+    height: 400px;
+}
+
+.main-name {
+    display: flex;
+    margin: 10px;
+    justify-self: flex-start;
+}
